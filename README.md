@@ -1,1 +1,1 @@
-# pyrex-angular
+# Web application for Pyrex Designs
