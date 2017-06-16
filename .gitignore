@@ -1,3 +1,25 @@
+# Ignore vim edits and swap files
+*~
+*.swp
+
+# Ignore subversion files
+.svn
+
+# Ignore intermediate build files
+obj/
+bin/
+
+# git ssl cert cache
+git@*
+
+# ignore git patch files
+build.bat
+
+# environment specific
+*.user
+*.suo
+*.patch
+
 # Logs
 logs
 *.log
@@ -56,4 +78,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
